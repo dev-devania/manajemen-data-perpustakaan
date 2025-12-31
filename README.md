@@ -12,7 +12,7 @@ Sistem Peminjaman Buku (MVP) berbasis **PHP + MySQL** (cocok dijalankan lokal pa
 - PHP 8.x
 - MySQL / MariaDB
 - Laragon / XAMPP (disarankan Laragon)
-- (Opsional) HeidiSQL untuk cek database
+- (Optional) HeidiSQL untuk cek database
 
 ## Cara Menjalankan (Local)
 1. Clone / download repo ini.
