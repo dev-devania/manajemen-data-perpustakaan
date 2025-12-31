@@ -1,17 +1,17 @@
 # Manajemen Data Perpustakaan
-Sistem Peminjaman Buku (MVP) berbasis **PHP + MySQL** (cocok dijalankan lokal pakai Laragon/XAMPP).
+Sistem Peminjaman Buku (MVP) berbasis **PHP + MySQL**.
 
 ## Fitur
 - Login (Admin / Petugas)
-- Kelola Data Buku (tambah, edit, hapus, cari, sort)
-- Kelola Data Anggota/Peminjam (tambah, edit, hapus, cari, sort)
+- Kelola Data Buku (CRUD dan sort)
+- Kelola Data Anggota/Peminjam (CRUD dan sort)
 - Transaksi Peminjaman & Pengembalian
 - UI Dark/Light Mode + Dashboard
 
 ## Requirement
 - PHP 8.x
 - MySQL / MariaDB
-- Laragon / XAMPP (disarankan Laragon)
+- Laragon / XAMPP (< Laragon)
 - (Optional) HeidiSQL untuk cek database
 
 ## Cara Menjalankan (Local)
@@ -23,15 +23,10 @@ Sistem Peminjaman Buku (MVP) berbasis **PHP + MySQL** (cocok dijalankan lokal pa
 4. Import database:
    - Jalankan file `schema.sql` (atau import via HeidiSQL/phpMyAdmin).
 5. Buat file config:
-   - Copy `config.ex.php` menjadi `config.php`
-   - Edit isi `config.php` sesuai host/user/password MySQL kamu
+   - Copy `config.ex.php` jadi `config.php`
+   - Edit isi `config.php` sesuai host/user/password MySQL anda
 6. Jalankan di browser:
    - `http://localhost/NAMA_FOLDER_PROJECT/login.php`
-
-## Catatan Keamanan
-- Jangan upload `config.php` yang berisi kredensial asli.
-- Gunakan `config.ex.php` sebagai contoh.
-- Pastikan `.env`, `vendor/`, dan file sensitif lain tidak ikut ter-push.
 
 ## Struktur File Singkat
 - `index.php` : halaman dashboard
