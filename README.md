@@ -28,7 +28,7 @@ Sistem Peminjaman Buku (MVP) berbasis **PHP + MySQL** (cocok dijalankan lokal pa
 6. Jalankan di browser:
    - `http://localhost/NAMA_FOLDER_PROJECT/login.php`
 
-## Catatan Keamanan (kalau repo public)
+## Catatan Keamanan
 - Jangan upload `config.php` yang berisi kredensial asli.
 - Gunakan `config.ex.php` sebagai contoh.
 - Pastikan `.env`, `vendor/`, dan file sensitif lain tidak ikut ter-push.
